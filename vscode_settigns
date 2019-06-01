@@ -18,6 +18,8 @@
     "debug.toolBarLocation": "docked",
 
     "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
