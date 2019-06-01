@@ -1,0 +1,33 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.minimap.enabled": false,
+    
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Universe",
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    
+    "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
+    "terminal.integrated.fontSize": 16,
+    
+    "debug.toolBarLocation": "docked",
+
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+    "files.watcherExclude": {
+        "**/env/**": true
+    }
+}
