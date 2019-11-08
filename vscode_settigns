@@ -1,35 +1,19 @@
 {
-    "editor.fontSize": 16,
-    "editor.fontWeight": "400",
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.startupEditor": "newUntitledFile",
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.minimap.enabled": false,
-    
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Universe",
+    "editor.fontSize": 18,
     "workbench.tips.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
-    
-    "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
-    "terminal.integrated.fontSize": 16,
-    
-    "debug.toolBarLocation": "docked",
-
-    "window.zoomLevel": 0,
-    "window.titleBarStyle": "custom",
-
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
-    "git.autofetch": true,
     "extensions.ignoreRecommendations": true,
-    "files.watcherExclude": {
-        "**/env/**": true
-    }
+    "git.autofetch": true,
+    "git.ignoreMissingGitWarning": true,
+    "git.confirmSync": false,
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.mode": "legacy",
+    "rust.actionOnSave": "check",
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.fontFamily": "Source Code Pro"
 }
