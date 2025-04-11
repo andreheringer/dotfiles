@@ -1,0 +1,33 @@
+theme = "dark_plus"
+
+[keys.normal]
+"C-[" = "jump_backward"
+"C-]" = "jump_forward"
+"A-q" = ":buffer-close"
+"A-w" = ":w"
+
+
+[editor]
+line-number = "relative"
+cursorline = true
+true-color = true
+bufferline = "always"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = ["diagnostics"]
+right = ["position", "file-encoding", "file-type"]
+
+[editor.indent-guides]
+character = "╎"
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+
+[editor.inline-diagnostics]
+cursor-line = "error" # Show inline diagnostics when the cursor is on the line
+other-lines = "disable" # Don't expand diagnostics unless the cursor is on the line

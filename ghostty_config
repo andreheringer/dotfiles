@@ -1,0 +1,9 @@
+# ~/.config/ghostty/config.toml
+
+font-family = "SauceCode Pro"
+font-size = 14
+theme = "Dark+"
+window-height=30
+window-width=110
+
+title="Oh, hello"
